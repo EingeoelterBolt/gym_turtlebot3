@@ -1,0 +1,1 @@
+Basic structure to create new environments for Gym: https://github.com/openai/gym/blob/master/docs/creating-environments.md and https://stackoverflow.com/questions/45068568/how-to-create-a-new-gym-environment-in-openai

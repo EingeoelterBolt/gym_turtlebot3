@@ -1,0 +1,19 @@
+# Available models: burger, waffle, waffle_pi
+model: "waffle_pi"
+worlds:
+  turtlebot3_world:
+    target:
+      x: 2.0
+      y: 0.0
+      z: 0.0
+    number_of_lasers: 18  # Has to be set first in the model.sdf file, before changing it here.
+    default:
+      position:
+        x: -2.0
+        y: -0.5
+        z: 0.0
+      quaternion_orientation:
+        x: 2.0
+        y: 0.0
+        z: 5.0
+        w: 1.0
