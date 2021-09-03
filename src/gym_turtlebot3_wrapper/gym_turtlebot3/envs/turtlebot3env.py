@@ -285,7 +285,7 @@ class Turtlebot3Env(gym.Env):
                     angular_z / 1.82,
                     theta / pi,
                     distance_to_target,
-                    angle_to_target / pi,
+                    angle_to_target,
                 ]
             ),
         )
